@@ -1,0 +1,44 @@
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+html {
+  width: 100lvw;
+  height: 100lvh;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 0 !important;
+  padding: 0;
+
+  padding: 1rem;
+}
+
+#header {
+  width: 100%;
+}
+
+#header>*+* {
+  margin-left: 0.5rem;
+}
+
+.spacer {
+  display: flex;
+  flex: 1;
+  margin-left: auto;
+}
